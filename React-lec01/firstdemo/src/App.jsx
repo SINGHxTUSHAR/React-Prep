@@ -4,10 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Test from './test'
 function App() {
-
+  const userName = "tushar singh rawat";
   return (
     <>
-     <Test/>
+      <h1>Hello {userName}</h1>
+      <Test/>
     </>
   )
 }
